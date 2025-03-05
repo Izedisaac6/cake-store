@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .navbar-toggler{
+          color: rgb(244, 7, 169);
+        }
+        .container-fluid{
+          background-color:  rgb(12, 12, 12);
+         
+        }
+        .navbar-brand{
+          color: rgb(244, 7, 169);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+        }
+        .mx-lg-auto{
+        position: relative;left: 50px;
+
+        }
+        .lead{
+            color: rgb(247, 243, 244);
+            font-weight: lighter;
+        }
+        .btn-primary{
+          background-color: rgb(249, 89, 190);
+            border: none;
+        }
+        .flex-lg-row-reverse{
+          background-color: rgb(249, 80, 187);
+          text-align: center;
+        }
+        img{
+            border-radius:10px;
+        
+        }
+        h3{
+            color: rgb(242, 55, 142);
+        }
+        .bi-cash{
+          color: rgb(243, 67, 123);
+          border-radius: 50%;
+        }
+        h2{
+          position: relative;top: 100px;
+        }
+        .cord{
+          height:90px;
+          width: 90px;
+          background-color: rgb(243, 67, 152);
+          border-radius: 50%;
+          position: fixed;top:10rem ;left: 69rem;
+          
+         
+        }
+        .btn-lg3{
+          position: relative;left: 420px;
+        }
+        .bi-cake2-fill{
+          color: rgb(103, 71, 81);
+          height: 50px;
+          width: 50px;
+          position: relative;left: 2px;
+          position: relative;top: 20px;
+          border-radius: 50%;
+        }
+        .bi-truck{
+          color: rgb(243, 67, 123);
+          height: 50px;
+          width: 50px;
+          position: relative;left: 20px;
+          border-radius: 50%;
+        }
+        .row-cols-md-3{
+          margin-top: 10px;
+        }
+        h1{
+          color: rgb(243, 67, 123);
+        }
+        .btn-lg4{
+          margin-top: 10px;
+          position: relative;left: 500px;
+        }
+        .bi-cake2-fill2{
+          color: rgb(243, 67, 123);
+          height: 50px;
+          width: 50px;
+          position: relative;left: 17px;
+          border-radius: 50%;
+        }
+        input{
+          color: white;
+          background-color: rgb(249, 42, 108);
+          border: none;
+          position: relative;left: 100px;
+          border-radius: 10px;
+          width: 100px;
+        }
+        .my-2{
+          position: relative;
+          left: 420px;
+          top: 35px;
+          border: none;
+        }
+        .btn-lg2{
+          position: relative;
+          left: 300px;
+          position: relative;
+          border: none;
+        }
+        .px-4{
+         color: rgb(242, 92, 157);
+        }
+        .btn3{
+          position: relative;
+          left: 820px;
+          position: relative;
+          top: 15px;
+          border: none;
+          color: rgb(245, 245, 244);
+          border-radius: 20px;
+        .btn2{
+          position: relative;left: 500px;
+          position: relative;top: 15px;
+          border: none;
+          color: rgb(245, 245, 244);
+          border-radius: 70px;
+        }
+        .btn{
+          position: relative;left: 100px;
+          position: relative;top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Purity Cakes</a>
+          <button
+        }n class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http//www.puritycake.com">Purity cakes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Tracking</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Need help</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">shop</a></li>
+                  <li><a class="dropdown-item" href="#">Information</a></li>
+                  <li><a class="dropdown-item" href="#">Find my Delivery</a></li>
+                  <li><a class="dropdown-item" href="#">Reminder & Occassion</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="birthday-cake-2.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            Order Amazing Cakes for Just ₦17,500
+            Get Fast Shipping and Free Sparklers!</h1>
+          <h5 class="lead">Hurry now to get your sweet cakes and we are going to deliver it to your door step, because we deliver worldwide</h5>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">find</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">search more</button>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"></path>
+          </svg>
+          <h3 class="fs-2 text-body-emphasis">Free Delivery</h3>
+          <p>We deliver even at the shortest notice</p>
+        </div>
+        <div class="feature col">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cake2-fill2" viewBox="0 0 16 16">
+            <path d="m2.899.804.595-.792.598.79A.747.747 0 0 1 4 1.806v4.886q-.532-.09-1-.201V1.813a.747.747 0 0 1-.1-1.01ZM13 1.806v4.685a15 15 0 0 1-1 .201v-4.88a.747.747 0 0 1-.1-1.007l.595-.792.598.79A.746.746 0 0 1 13 1.806m-3 0a.746.746 0 0 0 .092-1.004l-.598-.79-.595.792A.747.747 0 0 0 9 1.813v5.17q.512-.02 1-.055zm-3 0v5.176q-.512-.018-1-.054V1.813a.747.747 0 0 1-.1-1.01l.595-.79.598.789A.747.747 0 0 1 7 1.806"></path>
+            <path d="M4.5 6.988V4.226a23 23 0 0 1 1-.114V7.16c0 .131.101.24.232.25l.231.017q.498.037 1.02.055l.258.01a.25.25 0 0 0 .26-.25V4.003a29 29 0 0 1 1 0V7.24a.25.25 0 0 0 .258.25l.259-.009q.52-.018 1.019-.055l.231-.017a.25.25 0 0 0 .232-.25V4.112q.518.047 1 .114v2.762a.25.25 0 0 0 .292.246l.291-.049q.547-.091 1.033-.208l.192-.046a.25.25 0 0 0 .192-.243V4.621c.672.184 1.251.409 1.677.678.415.261.823.655.823 1.2V13.5c0 .546-.408.94-.823 1.201-.44.278-1.043.51-1.745.696-1.41.376-3.33.603-5.432.603s-4.022-.227-5.432-.603c-.702-.187-1.305-.418-1.745-.696C.408 14.44 0 14.046 0 13.5v-7c0-.546.408-.94.823-1.201.426-.269 1.005-.494 1.677-.678v2.067c0 .116.08.216.192.243l.192.046q.486.116 1.033.208l.292.05a.25.25 0 0 0 .291-.247M1 8.82v1.659a1.935 1.935 0 0 0 2.298.43.935.935 0 0 1 1.08.175l.348.349a2 2 0 0 0 2.615.185l.059-.044a1 1 0 0 1 1.2 0l.06.044a2 2 0 0 0 2.613-.185l.348-.348a.94.94 0 0 1 1.082-.175c.781.39 1.718.208 2.297-.426V8.833l-.68.907a.94.94 0 0 1-1.17.276 1.94 1.94 0 0 0-2.236.363l-.348.348a1 1 0 0 1-1.307.092l-.06-.044a2 2 0 0 0-2.399 0l-.06.044a1 1 0 0 1-1.306-.092l-.35-.35a1.935 1.935 0 0 0-2.233-.362.935.935 0 0 1-1.168-.277z"></path>
+          </svg>
+          <h3 class="fs-2 text-body-emphasis">Free Sparklers!</h3>
+          <p>We always add free sparklers to any cake you order from us</p>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cash" viewBox="0 0 16 16">
+              <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4"></path>
+              <path d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2z"></path>
+            </svg>
+          <h3 class="fs-2 
+          text-body-emphasis">Affordable Cakes</h3>
+          <p>Our cakes are affordable, delicious and excellent</p>
+        </div>
+      </div>
+      <hr style="height: 2px;background-color: rgb(249, 49, 112);">
+      <h1 style="text-align: center;">Our Budget Cakes</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Vanilla Double Layer Cake22.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sweet Budget Cake</h5>
+              <p>Chocolate Singer Layer Cake</p>
+              <p class="card-text">#25,000.</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="vanilla single cake2234.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sweet Budget Cake</h5>
+              <p>Vanilla Single Cake</p>
+              <p class="card-text">#15,000.</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="vanilla double layer cake.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sweet Bugdet Cake</h5>
+              <p>Vanilla Double Layer Cake</p>
+              <p class="card-text">#18,000</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Chocolate Double layered Cake- 10 Inches.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Budget cake</h5>
+              <p class="card-text">Chocolate Double layered Cake- 10 Inches.</p>
+              <p style="color: rgb(247, 98, 122);">#36,000</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Red-Velvet Single Layer Cake- 10 Inches.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Budget cake</h5>
+              <p class="card-text">Red-Velvet Single Layer Cake- 10 Inches.</p>
+              <p style="color: rgb(247, 98, 122);">#20,000</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Red-Velvet Double-Layered Cake.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Budget cake</h5>
+              <p class="card-text">Red-Velvet Double-Layered Cake</p>
+              <p style="color: rgb(247, 98, 122);">#40,000</p>
+            </div>
+            <input type="button" value="BUY NOW">
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Strawberry-Whipped-Cream-Cake.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Budget cake</h5>
+              <p class="card-text">Strawberry-Whipped-Cream-Cake</p>
+              <p>₦25,000</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Cupcakes- Box of 12.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Budget cake</h5>
+              <p class="card-text">Cupcakes- Box of 12.</p>
+              <p>₦16,000</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Whipped Cream Dessert Cake.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Budget cake</h5>
+              <p class="card-text">Whipped Cream Dessert Cake.</p>
+              <p>₦30,000–₦60,000</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Strawberry-Whipped-Cream-Cake.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Budget Cake</h5>
+              <p class="card-text">Strawberry-Whipped-Cream-Cake.</p>
+              <p>#22,000</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Gold Flare Cake.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Budget Cake</h5>
+              <p class="card-text">Gold Flare Cake.</p>
+              <p>#30,000</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Cherry Splash Cake.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Budget Cake</h5>
+              <p class="card-text">Cherry Splash Cake.</p>
+              <p>#44,000</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg4">View All Special Cake</button>
+      <h4 style="color: rgb(243, 67, 123); position: relative;left: 480px;font-weight: bold;position: relative;top: 30px;">Our Children's Cakes</h4>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Children Character Cake.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bugdet Cake</h5>
+              <p class="card-text">Children Character Cake.</p>
+              <p>#40,000</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Numbered Flowered Cake- Double Layer.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Budget Cake</h5>
+              <p>Numbered Flowered Cake- Double Layer.</p>
+                <p>#40,000</p>
+                <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Numbered Cake- Single Layer.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bugdet Cake</h5>
+              <p class="card-text">Numbered Cake- Single Layer.</p>
+              <p>#40,000</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg4">View All Children Cake</button>
+      <h4 style="color: rgb(243, 67, 123); position: relative;left: 480px;font-weight: bolder;position: relative;top: 30px;">Our Top Picks for You</h4>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Choco Rumble Cake- 10 Inches.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bugdet Cake</h5>
+              <p class="card-text">Choco Rumble Cake- 10 Inches.</p>
+              <p>#60,000</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Fruit Deluxe Cake- 10 Inches.2324.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bugdet Cake</h5>
+              <p class="card-text">Fruit Deluxe Cake- 10 Inches.</p>
+              <p>#25,000</p>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Gold Fissure Cake.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bugdet Cake</h5>
+              <p class="card-text">Gold Fissure Cake.</p>
+              <P>#25,000</P>
+              <input type="button" value="BUY NOW">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg4">View All Our Cake Design</button>
+      <hr style="height: 2px;background-color: rgb(252, 73, 115);">
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold text-body-emphasis">What Others are Saying about Us</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead2 mb-4">Amazing Service, got my order delivered the same day i requested. I could even give more than five stars if it were possible.</p>
+          <h1 style="color: black;">Mariam</h1>
+          <p style="font-weight: bold;">Abuja</p>
+      </div>
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">Ready to Order?</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Just look through our pictures and prices and select a cake. We deliver very fast!</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Choose A Cake Now</button>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+          <div class="container px-5">
+            <img src="Gold Flare Cake.jpeg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+          </div>
+        </div>
+      </div>
+     <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Free Sparklers</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Subscribe Now</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Important Link</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact US</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe Now</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <H4 style="position: relative;left: 400px;">Copyright © 2024 Purity Cakes Company.</H4>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+      <div class="cord">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cake2-fill" viewBox="0 0 16 16">
+          <path d="m2.899.804.595-.792.598.79A.747.747 0 0 1 4 1.806v4.886q-.532-.09-1-.201V1.813a.747.747 0 0 1-.1-1.01ZM13 1.806v4.685a15 15 0 0 1-1 .201v-4.88a.747.747 0 0 1-.1-1.007l.595-.792.598.79A.746.746 0 0 1 13 1.806m-3 0a.746.746 0 0 0 .092-1.004l-.598-.79-.595.792A.747.747 0 0 0 9 1.813v5.17q.512-.02 1-.055zm-3 0v5.176q-.512-.018-1-.054V1.813a.747.747 0 0 1-.1-1.01l.595-.79.598.789A.747.747 0 0 1 7 1.806"/>
+          <path d="M4.5 6.988V4.226a23 23 0 0 1 1-.114V7.16c0 .131.101.24.232.25l.231.017q.498.037 1.02.055l.258.01a.25.25 0 0 0 .26-.25V4.003a29 29 0 0 1 1 0V7.24a.25.25 0 0 0 .258.25l.259-.009q.52-.018 1.019-.055l.231-.017a.25.25 0 0 0 .232-.25V4.112q.518.047 1 .114v2.762a.25.25 0 0 0 .292.246l.291-.049q.547-.091 1.033-.208l.192-.046a.25.25 0 0 0 .192-.243V4.621c.672.184 1.251.409 1.677.678.415.261.823.655.823 1.2V13.5c0 .546-.408.94-.823 1.201-.44.278-1.043.51-1.745.696-1.41.376-3.33.603-5.432.603s-4.022-.227-5.432-.603c-.702-.187-1.305-.418-1.745-.696C.408 14.44 0 14.046 0 13.5v-7c0-.546.408-.94.823-1.201.426-.269 1.005-.494 1.677-.678v2.067c0 .116.08.216.192.243l.192.046q.486.116 1.033.208l.292.05a.25.25 0 0 0 .291-.247M1 8.82v1.659a1.935 1.935 0 0 0 2.298.43.935.935 0 0 1 1.08.175l.348.349a2 2 0 0 0 2.615.185l.059-.044a1 1 0 0 1 1.2 0l.06.044a2 2 0 0 0 2.613-.185l.348-.348a.94.94 0 0 1 1.082-.175c.781.39 1.718.208 2.297-.426V8.833l-.68.907a.94.94 0 0 1-1.17.276 1.94 1.94 0 0 0-2.236.363l-.348.348a1 1 0 0 1-1.307.092l-.06-.044a2 2 0 0 0-2.399 0l-.06.044a1 1 0 0 1-1.306-.092l-.35-.35a1.935 1.935 0 0 0-2.233-.362.935.935 0 0 1-1.168-.277z"/>
+        </svg>
+      </div>
+     
+        
+       
+          
+        
+        
+        
+       
+        
+        
+
+   
+      
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>
